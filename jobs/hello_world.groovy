@@ -7,15 +7,6 @@ job('Hello World') {
                 shell('Here is the build stage')
             }
         }
-            stage('Test') {
-                steps {
-
-                    sh 'mvn test'
-                }
-              
-            }
-        
-         
         }
     }
 }
